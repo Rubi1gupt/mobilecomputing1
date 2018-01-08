@@ -10,12 +10,32 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is a sample Hello World App"
+        android:text="List of Restaurants"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.136" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:onClick="sendMessage1"
+        android:text="PF Chang Menu"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="108dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="284dp"
+        android:onClick="backHomeMessage"
+        android:text="Back to Home"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="108dp" />
 
 
 </android.support.constraint.ConstraintLayout>
